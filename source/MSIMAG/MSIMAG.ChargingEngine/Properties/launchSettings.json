@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "MSIMAG.ChargingEngine": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

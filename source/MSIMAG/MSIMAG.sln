@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34018.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSIMAG.Core", "MSIMAG.Core\MSIMAG.Core.csproj", "{455DB5DA-BC9A-4835-99BF-2366616947BA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSIMAG.ChargingEngine", "MSIMAG.ChargingEngine\MSIMAG.ChargingEngine.csproj", "{F7F5B99C-7DC0-4ACA-94C9-BFEECF068260}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Measurements", "Measurements", "{FE51BFA7-0356-49AA-A56C-0F8CDD7F346A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSIMAG.Counters", "MSIMAG.Counters\MSIMAG.Counters.csproj", "{54FFA37D-BC64-4CCA-A3C5-EC84271D3CBC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Buttons", "Buttons", "{A6B5690A-64FC-4473-87EF-D960F6EE9F26}"
+	ProjectSection(SolutionItems) = preProject
+		Besichtigung Ergebnis.html = Besichtigung Ergebnis.html
+		Manageraktionen.html = Manageraktionen.html
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSIMAG.PropertyInitializer", "MSIMAG.PropertyInitializer\MSIMAG.PropertyInitializer.csproj", "{D85C294A-F368-44FE-A894-12A1AFB15CCB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "New Buttons", "New Buttons", "{BA4B4F94-F415-4B89-A926-256BDED5F134}"
+	ProjectSection(SolutionItems) = preProject
+		MoveToApproval.html = MoveToApproval.html
+		New_Besichtigung Ergebnis.html = New_Besichtigung Ergebnis.html
+		New_Manageraktionen -AgreementActions.html = New_Manageraktionen -AgreementActions.html
+		New_Manageraktionen.html = New_Manageraktionen.html
+		readme.txt = readme.txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSIMAG.FunctionApp", "MSIMAG.FunctionApp\MSIMAG.FunctionApp.csproj", "{A3224DE6-0BE9-4F02-8C04-9535CC21095E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSIMAG.Api", "MSIMAG.Api\MSIMAG.Api.csproj", "{F3AB6088-1ABD-4A8C-80D9-6F87B63DA46F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{455DB5DA-BC9A-4835-99BF-2366616947BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{455DB5DA-BC9A-4835-99BF-2366616947BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{455DB5DA-BC9A-4835-99BF-2366616947BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{455DB5DA-BC9A-4835-99BF-2366616947BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7F5B99C-7DC0-4ACA-94C9-BFEECF068260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7F5B99C-7DC0-4ACA-94C9-BFEECF068260}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7F5B99C-7DC0-4ACA-94C9-BFEECF068260}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7F5B99C-7DC0-4ACA-94C9-BFEECF068260}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54FFA37D-BC64-4CCA-A3C5-EC84271D3CBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54FFA37D-BC64-4CCA-A3C5-EC84271D3CBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54FFA37D-BC64-4CCA-A3C5-EC84271D3CBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54FFA37D-BC64-4CCA-A3C5-EC84271D3CBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D85C294A-F368-44FE-A894-12A1AFB15CCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D85C294A-F368-44FE-A894-12A1AFB15CCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D85C294A-F368-44FE-A894-12A1AFB15CCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D85C294A-F368-44FE-A894-12A1AFB15CCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3224DE6-0BE9-4F02-8C04-9535CC21095E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3224DE6-0BE9-4F02-8C04-9535CC21095E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3224DE6-0BE9-4F02-8C04-9535CC21095E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3224DE6-0BE9-4F02-8C04-9535CC21095E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3AB6088-1ABD-4A8C-80D9-6F87B63DA46F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3AB6088-1ABD-4A8C-80D9-6F87B63DA46F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3AB6088-1ABD-4A8C-80D9-6F87B63DA46F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3AB6088-1ABD-4A8C-80D9-6F87B63DA46F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{54FFA37D-BC64-4CCA-A3C5-EC84271D3CBC} = {FE51BFA7-0356-49AA-A56C-0F8CDD7F346A}
+		{BA4B4F94-F415-4B89-A926-256BDED5F134} = {A6B5690A-64FC-4473-87EF-D960F6EE9F26}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2DBE80B-E362-4747-A7D4-62E38480E7F2}
+	EndGlobalSection
+EndGlobal

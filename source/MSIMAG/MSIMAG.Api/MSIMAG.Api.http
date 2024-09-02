@@ -1,0 +1,6 @@
+@MSIMAG.Api_HostAddress = http://localhost:5274
+
+GET {{MSIMAG.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

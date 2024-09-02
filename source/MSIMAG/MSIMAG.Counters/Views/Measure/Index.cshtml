@@ -1,0 +1,43 @@
+﻿
+@model MeasureViewModel
+@{
+    ViewData["Title"] = "Add Measure";
+}
+
+<h1>Fügen Sie einen Zählerstand hinzu</h1>
+
+<form enctype="multipart/form-data" method="post">
+    <dl>
+        <dt>
+            <label></label>
+        </dt>
+        <dd>
+            <label>Mieteinheit:</label>
+            <select asp-for="Unit" asp-items="@(new SelectList(ViewBag.Units,"Id","Name"))" class="form-select"></select>
+
+        </dd>
+        <dd>
+            <label>Protokoll:</label>
+            <select asp-for="Protocol" class="form-control" asp-items="@(new SelectList(ViewBag.Protocols,"Id","Name"))"></select>
+        </dd>
+        <dd>
+            <label>Counter Type:</label>            
+            <select asp-for="CounterType" class="form-control" asp-items="@(new SelectList(ViewBag.Countertypes,"Id","Name"))"></select>
+        </dd>
+        <dd>
+            <label>Counter Number:</label>
+            <input asp-for="CounterNumber" type="text" class="form-control" />
+        </dd>
+        <dd>
+            <label>Stellung:</label>
+            <input asp-for="Position" type="text" class="form-control" />
+        </dd>
+        <dd>
+            <input type="file" accept="image/*" capture="camera">
+        </dd>
+    </dl>
+    <input asp-page-handler="Upload" class="btn btn-primary" type="submit" value="Speichern">
+    <input asp-page-handler="Upload" class="btn btn btn-primary" type="submit" value="Speichern und erstellen">
+</form>
+
+
