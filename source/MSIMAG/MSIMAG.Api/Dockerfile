@@ -9,7 +9,7 @@ EXPOSE 8081
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["MSIMAG.Api/MSIMAG.Api.csproj", "MSIMAG.Api/"]
+COPY ["MSIMAG.Api.csproj", "MSIMAG.Api/"]
 RUN dotnet add source https://pkgs.dev.azure.com/locwise/Locwise.Fireberry/_packaging/FireberryLocwisePackages/nuget/v3/index.json
 RUN dotnet restore "./MSIMAG.Api/MSIMAG.Api.csproj"
 COPY . .
